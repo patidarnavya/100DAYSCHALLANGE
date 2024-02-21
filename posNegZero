@@ -1,0 +1,11 @@
+function posNegZero(num){
+    if(num > 0){
+        console.log("the number is positive");
+    }else if (num < 0){
+    console.log("the number is negative");
+    }else
+        console.log("the number is zero");
+}
+posNegZero(3);
+posNegZero(-7);
+posNegZero(0);
